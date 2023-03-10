@@ -31,7 +31,7 @@
 | 将工作区指定文件恢复成和暂存区一致   | `git checkout`+filename(可以多个) |
 | 将暂区指定文件恢复成和 HEAD 一致   | `git reset`+filename(可以多个) |
 | 将暂存区和工作区所有文件恢复成和 HEAD 一样   | `git reset --hard` |
-| 添加远程仓库   | `git remote add` +<remote-name>+<remote-url> |
+| 添加远程仓库   | `git remote add` +remote-name+remote-url |
 | 从远程仓库获取最新版本并合并到本地   | `git pull` |
 
 # commit规范
