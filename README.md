@@ -19,12 +19,13 @@
 | 把本地仓库的提交推送到远程仓库   | `git push` |
 | 打印所有的提交记录   | `git log` |
 | 把本地仓库的提交推送到指定远程仓库   | `git push origin`+分支名 |
-| 将变所有更文件保存到暂存区   | `git stash` |
+| 将所有改动文件保存到暂存区   | `git stash` |
+| 将所有暂存区文件取出到工作区   | `git stash pop` |
 | 切换到指定分支   | `git checkout`+分支名 |
 | 将工作区指定文件恢复成和暂存区一致   | `git checkout`+`文件名`(可以多个) |
 | 将暂区指定文件恢复成和 HEAD 一致   | `git reset`+文件名(可以多个) |
 | 将暂存区和工作区所有文件恢复成和 HEAD 一样   | `git reset --hard` |
-| 添加远程仓库   | `git reset --hard` |
+| 添加远程仓库   | `git remote add <remote-name> <remote-url>` |
 
 # commit规范
 
