@@ -6,7 +6,8 @@
 |  查看用户名         | `git config --global user.name` |
 |  设置邮箱       | `git config --global user.email`+`邮箱名` |
 |  查看邮箱       | `git config --global user.email` |
-|  添加所有文件       | `git add .` |
+|  添加所有文件       | `git add .`(不建议) |
+|  添加单个文件       | `git add`+`文件名` |
 
 # commit规范
 
