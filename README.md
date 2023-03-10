@@ -6,6 +6,7 @@
 | 设置邮箱               | `git config --global user.email`+ 邮箱名 |
 | 查看邮箱              | `git config --global user.email` |
 | 列出已经存在的远程仓库   | `git remote` |
+| 在当前目录下克隆远程仓库到本地  | `git clone`                       |
 | 初始化git仓库          | `git init`                       |
 | 查看 global 配置       | `git config --global --list`   |
 | 查看当前仓库配置        | `git config --local --list`   |
