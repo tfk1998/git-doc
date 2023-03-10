@@ -11,7 +11,7 @@
 | 查看变更情况            | `git status`   |
 | 列出本地的所有分支       | `git branch`      |
 | 列出所有远程分支       | `git branch -r`      |
-| 删除远程分支       | `git push origin --delete`+分支名      |
+| 删除远程分支       | `git push origin --delete` [branch-name]      |
 | 添加所有文件到暂存区   | `git add .`(不建议) |
 | 添加指定文件到暂存区   | `git add`+文件名(可以多个) |
 | 添加所有变化的文件到暂存区   | `git add -A` |
