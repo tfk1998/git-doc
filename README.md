@@ -15,7 +15,7 @@
 | 添加所有文件到暂存区   | `git add .`(不建议) |
 | 添加指定文件到暂存区   | `git add`+filename(可以多个) |
 | 添加所有变化的文件到暂存区   | `git add -A` |
-| 将暂存区文件提交到本地仓库   | `git commit -m`+ 描述信息 |
+| 将暂存区文件提交到本地仓库   | `git commit -m`+ description |
 | 比较工作区和暂存区的所有差异   | `git diff` |
 | 比较某文件工作区和暂存区的差异   | `git diff`+filename |
 | 把本地仓库的提交推送到远程仓库   | `git push` |
