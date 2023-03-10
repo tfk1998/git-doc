@@ -1,4 +1,14 @@
-### commit规范
+# git常用命令
+| 功能              | 指令                            |
+| -----------------| ------------------------------  |
+| 初始化git仓库     | `git init`                       |
+|  设置用户名       | `git config --global user.name`+`你的名字` |
+|  查看用户名         | `git config --global user.name` |
+|  设置邮箱       | `git config --global user.email`+`邮箱名` |
+|  查看邮箱       | `git config --global user.email` |
+|  添加所有文件       | `git add .` |
+
+# commit规范
 
 | 类型         | 详细介绍 |
 | ----------- | ----------- |
