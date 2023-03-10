@@ -21,4 +21,4 @@
 |chore	|其他修改，比如构建，依赖管理|
 
 
-![image](https://user-images.githubusercontent.com/58834537/223019896-3881fe54-0fec-43ab-a3f1-08c56d3bc91c.png)
+![git](https://user-images.githubusercontent.com/58834537/224219830-578a574f-9c16-43f7-8aab-8f5e5116ebb9.png)
