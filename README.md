@@ -36,6 +36,14 @@
 | 从远程仓库获取最新版本并合并到本地   | `git pull` |
 | 给当前分支打标签   | `git tag`+tag-name |
 
+[Git可视化工具](https://www.sourcetreeapp.com/)
+
+#### 注意事项
+
+- 提交代码到远程分支的时候习惯先pull检查本地有没有冲突再push
+- 提mr 前保存工作区代码checkout 到master 分支pull 再切回自己分支 再merge
+
+
 # commit规范
 ### git commit的类别
 
