@@ -1,7 +1,7 @@
 # Git常用命令
 | 功能              | 指令                            |
 | -----------------| ------------------------------  |
-| 设置用户名             | `git config --global user.name`+ 你的名字 |
+| 设置用户名             | `git config --global user.name`+ name |
 | 查看用户名             | `git config --global user.name` |
 | 设置邮箱               | `git config --global user.email`+ 邮箱名 |
 | 查看邮箱              | `git config --global user.email` |
@@ -22,12 +22,12 @@
 | 打印所有的提交记录   | `git log` |
 | 列出已经存在的远程仓库   | `git remote` |
 | 在当前目录下克隆远程仓库到本地  | `git clone`+url              |
-| 在当前目录下克隆远程仓库指定分支到本地  | `git clone -b`+分支名 +url|
-| 把本地仓库的提交推送到指定远程仓库   | `git push origin`+分支名 |
+| 在当前目录下克隆远程仓库指定分支到本地  | `git clone -b`+branch-name +url|
+| 把本地仓库的提交推送到指定远程仓库   | `git push origin`+branch-name |
 | 将所有改动文件保存到暂存区   | `git stash` |
 | 将所有暂存区文件取出到工作区   | `git stash pop` |
-| 切换到指定分支   | `git checkout`+分支名 |
-| 新建一个分支，并切换到该分支   | `git checkout -b `+分支名 |
+| 切换到指定分支   | `git checkout`+branch-name |
+| 新建一个分支，并切换到该分支   | `git checkout -b `+branch-name |
 | 将工作区指定文件恢复成和暂存区一致   | `git checkout`+`文件名`(可以多个) |
 | 将暂区指定文件恢复成和 HEAD 一致   | `git reset`+文件名(可以多个) |
 | 将暂存区和工作区所有文件恢复成和 HEAD 一样   | `git reset --hard` |
