@@ -14,7 +14,7 @@
 | 删除远程分支       | `git push origin --delete` +branch-name      |
 | 添加所有文件到暂存区   | `git add .`(不建议) |
 | 添加指定文件到暂存区   | `git add`+filename(可以多个) |
-| 撤销本地提交   | `git revert [commit]` |
+| 撤销本地提交   | `git revert`+commit |
 | 添加所有变化的文件到暂存区   | `git add -A` |
 | 将暂存区文件提交到本地仓库   | `git commit -m`+ description |
 | 比较工作区和暂存区的所有差异   | `git diff` |
