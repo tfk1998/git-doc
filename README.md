@@ -34,6 +34,7 @@
 | 将暂存区和工作区所有文件恢复成和 HEAD 一样   | `git reset --hard` |
 | 添加远程仓库   | `git remote add` +remote-name+remote-url |
 | 从远程仓库获取最新版本并合并到本地   | `git pull` |
+| 给当前分支打标签   | `git tag`+tag-name |
 
 # commit规范
 ### git commit的类别
