@@ -67,12 +67,10 @@
 - 分支功能命名使用snake case命名法，即下划线命名
 
 # Git工作流
+[参考文献](https://www.ruanyifeng.com/blog/2015/12/git-workflow.html)
 - Git flow
 - Github flow
 - Gitlab flow
-<br/>
-
-[参考文献](https://www.ruanyifeng.com/blog/2015/12/git-workflow.html)
 
 
 # 操作流程
