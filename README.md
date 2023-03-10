@@ -44,5 +44,11 @@
 |revert	|回滚到上一个版本|
 |perf	|优化相关，比如提升性能、体验|
 
+#### 规范commit 的好处
+- 便于程序员对提交历史进行追溯，便于快速查找信息
+- 一旦约束了commit message,每行代码作用、每个功能，颗粒度尽可能细
+- 格式化的commit message才可以用于自动化输出Change log
+- 统一团队的 Git 工作流，包括分支使用、tag 规范、issue 等
+- 提供更多的信息，方便排查与回退
 
 ![git](https://user-images.githubusercontent.com/58834537/224219830-578a574f-9c16-43f7-8aab-8f5e5116ebb9.png)
