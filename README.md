@@ -65,5 +65,11 @@
 - 分支类型包括：feat、 fix、refactor三种类型，即新功能开发、bug修复和代码重构
 -  时间使用年月日进行命名，不足2位补0
 - 分支功能命名使用snake case命名法，即下划线命名
+
+# Git工作流
+
+
+
+
 # 操作流程
 ![git](https://user-images.githubusercontent.com/58834537/224219830-578a574f-9c16-43f7-8aab-8f5e5116ebb9.png)
