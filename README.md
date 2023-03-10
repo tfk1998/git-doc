@@ -3,7 +3,7 @@
 | -----------------| ------------------------------  |
 | 设置用户名             | `git config --global user.name`+ name |
 | 查看用户名             | `git config --global user.name` |
-| 设置邮箱               | `git config --global user.email`+ 邮箱名 |
+| 设置邮箱               | `git config --global user.email`+ email |
 | 查看邮箱              | `git config --global user.email` |
 | 初始化git仓库          | `git init`                       |
 | 查看 global 配置       | `git config --global --list`   |
@@ -11,13 +11,13 @@
 | 查看变更情况            | `git status`   |
 | 列出本地的所有分支       | `git branch`      |
 | 列出所有远程分支       | `git branch -r`      |
-| 删除远程分支       | `git push origin --delete` [branch-name]      |
+| 删除远程分支       | `git push origin --delete` +branch-name      |
 | 添加所有文件到暂存区   | `git add .`(不建议) |
-| 添加指定文件到暂存区   | `git add`+文件名(可以多个) |
+| 添加指定文件到暂存区   | `git add`+filename(可以多个) |
 | 添加所有变化的文件到暂存区   | `git add -A` |
 | 将暂存区文件提交到本地仓库   | `git commit -m`+ 描述信息 |
 | 比较工作区和暂存区的所有差异   | `git diff` |
-| 比较某文件工作区和暂存区的差异   | `git diff`+文件名 |
+| 比较某文件工作区和暂存区的差异   | `git diff`+filename |
 | 把本地仓库的提交推送到远程仓库   | `git push` |
 | 打印所有的提交记录   | `git log` |
 | 列出已经存在的远程仓库   | `git remote` |
@@ -28,8 +28,8 @@
 | 将所有暂存区文件取出到工作区   | `git stash pop` |
 | 切换到指定分支   | `git checkout`+branch-name |
 | 新建一个分支，并切换到该分支   | `git checkout -b `+branch-name |
-| 将工作区指定文件恢复成和暂存区一致   | `git checkout`+`文件名`(可以多个) |
-| 将暂区指定文件恢复成和 HEAD 一致   | `git reset`+文件名(可以多个) |
+| 将工作区指定文件恢复成和暂存区一致   | `git checkout`+filename(可以多个) |
+| 将暂区指定文件恢复成和 HEAD 一致   | `git reset`+filename(可以多个) |
 | 将暂存区和工作区所有文件恢复成和 HEAD 一样   | `git reset --hard` |
 | 添加远程仓库   | `git remote add <remote-name> <remote-url>` |
 | 从远程仓库获取最新版本并合并到本地   | `git pull` |
