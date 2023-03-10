@@ -5,19 +5,20 @@
 | 查看 global 配置       | `git config --global --list`   |
 | 查看当前仓库配置        | `git config --local --list`   |
 | 查看变更情况            | `git status`   |
-|  设置用户名             | `git config --global user.name`+`你的名字` |
+|  设置用户名             | `git config --global user.name`+ 你的名字 |
 |  查看用户名             | `git config --global user.name` |
-|  设置邮箱               | `git config --global user.email`+`邮箱名` |
+|  设置邮箱               | `git config --global user.email`+ 邮箱名 |
 |  查看邮箱              | `git config --global user.email` |
 |  添加所有文件到暂存区   | `git add .`(不建议) |
-|  添加指定文件到暂存区   | `git add`+`文件名`(可以多个) |
+|  添加指定文件到暂存区   | `git add`+文件名(可以多个) |
 |  添加所有变化的文件到暂存区   | `git add -A` |
-|  将暂存区文件提交到本地仓库   | `git commit -m`+`描述信息` |
-|  添加指定文件到暂存区   | `git add`+`文件名`(可以多个) |
-|  添加指定文件到暂存区   | `git add`+`文件名`(可以多个) |
-|  添加指定文件到暂存区   | `git add`+`文件名`(可以多个) |
-|  添加指定文件到暂存区   | `git add`+`文件名`(可以多个) |
-|  添加指定文件到暂存区   | `git add`+`文件名`(可以多个) |
+|  将暂存区文件提交到本地仓库   | `git commit -m`+ 描述信息 |
+|  比较工作区和暂存区的所有差异   | `git diff` |
+|  比较某文件工作区和暂存区的差异   | `git diff`+文件名 |
+|  切换到指定分支   | `git checkout`+分支名 |
+|  将工作区指定文件恢复成和暂存区一致   | `git checkout`+`文件名`(可以多个) |
+|  将暂存区指定文件恢复成和 HEAD 一致   | `git reset`+文件名(可以多个) |
+|  将暂存区和工作区所有文件恢复成和 HEAD 一样   | `git reset --hard` |
 
 # commit规范
 
