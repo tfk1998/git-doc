@@ -5,8 +5,6 @@
 | 查看用户名             | `git config --global user.name` |
 | 设置邮箱               | `git config --global user.email`+ 邮箱名 |
 | 查看邮箱              | `git config --global user.email` |
-| 列出已经存在的远程仓库   | `git remote` |
-| 在当前目录下克隆远程仓库到本地  | `git clone`                       |
 | 初始化git仓库          | `git init`                       |
 | 查看 global 配置       | `git config --global --list`   |
 | 查看当前仓库配置        | `git config --local --list`   |
@@ -19,6 +17,9 @@
 | 比较某文件工作区和暂存区的差异   | `git diff`+文件名 |
 | 把本地仓库的提交推送到远程仓库   | `git push` |
 | 打印所有的提交记录   | `git log` |
+| 列出已经存在的远程仓库   | `git remote` |
+| 在当前目录下克隆远程仓库到本地  | `git clone`+url              |
+| 在当前目录下克隆远程仓库指定分支到本地  | `git clone -b`+分支名 +url|
 | 把本地仓库的提交推送到指定远程仓库   | `git push origin`+分支名 |
 | 将所有改动文件保存到暂存区   | `git stash` |
 | 将所有暂存区文件取出到工作区   | `git stash pop` |
