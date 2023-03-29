@@ -36,6 +36,8 @@
 | 从远程仓库获取最新版本并合并到本地   | `git pull` |
 | 给当前分支打标签   | `git tag`+tag-name |
 
+[参考链接](https://gitsheet.wtf/)
+
 #### Git可视化工具
  - [Sourcetree](https://www.sourcetreeapp.com/)
  - [GitKraken](https://www.gitkraken.com/)
